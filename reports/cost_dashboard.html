@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Telco Retention — Average Cost per Run</title>
+<style>
+body {font-family:Arial,sans-serif;background:#f1f5f9;color:#0f172a;
+max-width:1100px;margin:40px auto;padding:20px}
+.card {background:white;border-radius:12px;padding:24px;margin:20px 0}
+.metrics {display:flex;gap:40px;flex-wrap:wrap}
+strong {display:block;font-size:28px;margin-top:10px}
+svg {width:100%;height:auto}
+text {font-size:14px;fill:#334155}
+</style>
+<h1>Telco Retention — Cost Dashboard</h1>
+<p>Recorded local Golden Dataset evaluation · Source: evals/results.json</p>
+<div class="card metrics">
+<div>Average cost per run<strong>$0.00008230/run</strong></div>
+<div>Total token cost<strong>$0.00049380</strong></div>
+<div>Completed runs<strong>6</strong></div>
+</div>
+<div class="card">
+<h2>Token cost by execution</h2>
+<svg viewBox="0 0 1100 450" role="img"
+aria-label="Cost of six runs with arithmetic mean">
+<text x="245" y="85" text-anchor="end">high_risk_price</text><rect x="260" y="65" width="470.11" height="30" fill="#2563eb" rx="4"/><text x="740.11" y="85">$0.00008445</text><text x="245" y="145" text-anchor="end">high_risk_cancellation</text><rect x="260" y="125" width="496.00" height="30" fill="#2563eb" rx="4"/><text x="766.00" y="145">$0.00008910</text><text x="245" y="205" text-anchor="end">high_risk_loyalty</text><rect x="260" y="185" width="467.61" height="30" fill="#2563eb" rx="4"/><text x="737.61" y="205">$0.00008400</text><text x="245" y="265" text-anchor="end">low_risk_long_contract</text><rect x="260" y="245" width="429.20" height="30" fill="#2563eb" rx="4"/><text x="699.20" y="265">$0.00007710</text><text x="245" y="325" text-anchor="end">moderate_risk_value</text><rect x="260" y="305" width="428.36" height="30" fill="#2563eb" rx="4"/><text x="698.36" y="325">$0.00007695</text><text x="245" y="385" text-anchor="end">prompt_injection</text><rect x="260" y="365" width="457.59" height="30" fill="#2563eb" rx="4"/><text x="727.59" y="385">$0.00008220</text>
+<line x1="718.15" y1="50" x2="718.15" y2="400"
+stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="718.15" y="30" text-anchor="middle">
+Average: $0.00008230/run</text>
+<text x="260" y="435">Blue bars: individual run cost · Red line: arithmetic mean</text>
+</svg>
+</div>
+<p>This supplementary dashboard summarizes six local runs.
+LangSmith screenshots separately show cost percentiles,
+span latency, and the complete trace tree.</p>
+</html>
