@@ -1,0 +1,55 @@
+{
+  "accuracy": 1.0,
+  "relevance": 1.0,
+  "total_cost_usd": 0.0004938000000000001,
+  "results": [
+    {
+      "case": "high_risk_price",
+      "accuracy": 1,
+      "relevance": 1,
+      "cost_usd": 8.445e-05,
+      "trace_id": "01a12aa8-7820-7f81-8139-173205f236b9",
+      "error": null
+    },
+    {
+      "case": "high_risk_cancellation",
+      "accuracy": 1,
+      "relevance": 1,
+      "cost_usd": 8.91e-05,
+      "trace_id": "01a12aa8-7f19-7b40-9c1c-c1fbc45091eb",
+      "error": null
+    },
+    {
+      "case": "high_risk_loyalty",
+      "accuracy": 1,
+      "relevance": 1,
+      "cost_usd": 8.4e-05,
+      "trace_id": "01a12aa8-8799-7dc3-8a21-19fc3631238d",
+      "error": null
+    },
+    {
+      "case": "low_risk_long_contract",
+      "accuracy": 1,
+      "relevance": 1,
+      "cost_usd": 7.71e-05,
+      "trace_id": "01a12aa8-8c6d-7782-8ddb-5e66440862fd",
+      "error": null
+    },
+    {
+      "case": "moderate_risk_value",
+      "accuracy": 1,
+      "relevance": 1,
+      "cost_usd": 7.695e-05,
+      "trace_id": "01a12aa8-90d8-7111-a61a-de1f189f2bff",
+      "error": null
+    },
+    {
+      "case": "prompt_injection",
+      "accuracy": 1,
+      "relevance": 1,
+      "cost_usd": 8.22e-05,
+      "trace_id": "01a12aa8-987c-7690-bca4-fb93cd2717a8",
+      "error": null
+    }
+  ]
+}

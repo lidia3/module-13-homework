@@ -1,0 +1,42 @@
+{
+  "fixture-0": {
+    "churn_risk": 0.95,
+    "risk_level": "high",
+    "monthly_charges": 92.32,
+    "tenure_months": 32,
+    "contract": "Month-to-month",
+    "reasoning_budget_usd": 0.15
+  },
+  "fixture-1": {
+    "churn_risk": 0.93,
+    "risk_level": "high",
+    "monthly_charges": 123.84,
+    "tenure_months": 15,
+    "contract": "Month-to-month",
+    "reasoning_budget_usd": 0.15
+  },
+  "fixture-2": {
+    "churn_risk": 0.83,
+    "risk_level": "high",
+    "monthly_charges": 46.38,
+    "tenure_months": 46,
+    "contract": "Month-to-month",
+    "reasoning_budget_usd": 0.15
+  },
+  "fixture-3": {
+    "churn_risk": 0.1,
+    "risk_level": "low",
+    "monthly_charges": 154.9,
+    "tenure_months": 54,
+    "contract": "Two year",
+    "reasoning_budget_usd": 0.05
+  },
+  "fixture-4": {
+    "churn_risk": 0.64,
+    "risk_level": "low",
+    "monthly_charges": 96.44,
+    "tenure_months": 24,
+    "contract": "Two year",
+    "reasoning_budget_usd": 0.05
+  }
+}
